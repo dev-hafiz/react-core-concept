@@ -22,6 +22,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  
 }
 
 .App-link {
@@ -35,4 +36,41 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.student-style{
+  
+  background: #1a1a1b;
+  
+  color: wheat;
+  padding: 20px;
+  border: 1px solid wheat;
+  font-weight: 700;
+  width: 600px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  
+}
+
+.points-button {
+  background: wheat;
+  color: black;
+  padding: 12px 14px;
+  border: none;
+  font-weight: 700;
+  border-radius: 4px;
+  font-size: 17px;
+}
+.div-style{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.single-user{
+  background:#1a1a1b;
+  color: wheat;
+  padding: 30px 50px;
+  margin: 10px;
+  border: white;
+  border-radius: 20px;
 }
